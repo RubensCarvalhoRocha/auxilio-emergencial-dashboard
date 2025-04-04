@@ -27,7 +27,7 @@ const GraficoValorTotalPorEstado = () => {
 
   return (
     <div style={{ width: '100%', height: 1000 }}>
-      <h2>Valor Total Pago por Estado (Barras Horizontais)</h2>
+      <h2>Valor Total Pago por Estado</h2>
       {dados.length > 0 && (
         <ResponsiveContainer>
           <BarChart
