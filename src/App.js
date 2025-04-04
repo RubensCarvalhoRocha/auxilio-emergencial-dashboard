@@ -7,6 +7,7 @@ function App() {
       <GraficoBeneficiariosPorEnquadramento />
       <GraficoValorTotalPorEstado />
       <GraficoPopulacaoPorEstado />
+      <GraficoTotalBeneficiariosPorEstado />
     </div>
   );
 }
