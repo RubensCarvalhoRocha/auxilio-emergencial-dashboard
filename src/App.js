@@ -1,10 +1,12 @@
 import React from "react";
-import GraficoBeneficiarios from "./GraficoBeneficiarios";
+import GraficoBeneficiariosPorEnquadramento from "./GraficoBeneficiariosPorEnquadramento";
 
 function App() {
   return (
     <div>
-      <GraficoBeneficiarios />
+      <GraficoBeneficiariosPorEnquadramento />
+      <GraficoValorTotalPorEstado />
+      <GraficoPopulacaoPorEstado />
     </div>
   );
 }
