@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import axios from "axios";
 
-const GraficoBeneficiarios = () => {
+const GraficoBeneficiariosPorEnquadramento = () => {
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
@@ -42,4 +42,4 @@ const GraficoBeneficiarios = () => {
   );
 };
 
-export default GraficoBeneficiarios;
+export default GraficoBeneficiariosPorEnquadramento;
